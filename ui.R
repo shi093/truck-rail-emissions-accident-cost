@@ -1,22 +1,12 @@
 library(shiny)
 library(leaflet)
-library(leaflet.extras)
-library(ggplot2)
 library(dplyr)
-library(shinysky)
 library(shinycssloaders)
-library(reshape2)
 library(rgdal)
-library(maptools)
-library(rgeos)
-library(sp)
-library(sf)
 library(plotly)
-library(data.table)
 library(htmltools)
 library(DT)
 library(shinyjs)
-
 
 ui<-shinyUI(
   fluidPage(
