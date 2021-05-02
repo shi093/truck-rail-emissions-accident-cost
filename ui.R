@@ -3,11 +3,14 @@ library(leaflet)
 library(dplyr)
 library(shinycssloaders)
 library(rgdal)
+library(maptools)
+library(rgeos)
+library(sp)
 library(plotly)
+library(data.table)
 library(htmltools)
 library(DT)
 library(shinyjs)
-
 
 ui<-fluidPage(
     tags$head(HTML("<title> Freight Transportation Costs for Truck and Rail</title>")),
